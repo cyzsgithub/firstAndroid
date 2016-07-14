@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:1:1-37:12
+	xmlns:android
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:1:11-69
+	package
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:2:5-48
+		INJECTED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml
+		INJECTED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml
+		INJECTED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml
+		INJECTED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml
+application
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:4:5-36:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:7:9-41
+	android:allowBackup
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:5:9-35
+	android:icon
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:6:9-43
+	android:theme
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:8:9-40
+activity#com.example.krischen.activitytest.FirstActivity
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:11:5-18:16
+	android:label
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:12:15-55
+	android:name
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:11:15-44
+	android:launchMode
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:13:15-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:14:15-17:31
+action#android.intent.action.MAIN
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:15:19-70
+	android:name
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:15:27-68
+category#android.intent.category.LAUNCHER
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:16:19-78
+	android:name
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:16:29-76
+activity#com.example.krischen.activitytest.SecondActivity
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:21:5-26:20
+	android:name
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:21:15-45
+intent-filter#android.intent.action.ACTION_STAR+android.intent.category.DEFAULT
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:22:9-25:25
+action#android.intent.action.ACTION_STAR
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:23:13-71
+	android:name
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:23:21-69
+category#android.intent.category.DEFAULT
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:24:13-71
+	android:name
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:24:23-69
+activity#com.example.krischen.activitytest.ThirdActivity
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:29:5-35:16
+	android:name
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:29:15-44
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:30:9-34:25
+action#android.intent.action.VIEW
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:31:13-64
+	android:name
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:31:21-62
+data
+ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:33:13-42
+	android:scheme
+		ADDED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml:33:19-40
+uses-sdk
+INJECTED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml
+		INJECTED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml
+		INJECTED from /work/AndroidStudioProjects/ActivityTest/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /work/AndroidStudioProjects/ActivityTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75
